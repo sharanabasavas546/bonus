@@ -11,4 +11,4 @@ total_salary = salary + bonus
 
 # Display the results
 print("Bonus Amount: ₹", bonus)
-print("Total Salary: ₹", total_salary)
+print("Total Salary: ₹", total_salary:.2f)
