@@ -1,14 +1,12 @@
-# Program to calculate 10% bonus and total salary
+# salary_bonus.py
 
-# Take salary input from the user
-salary = float(input("Enter the employee's salary: "))
+# Take input
+salary = float(input("Enter employee's salary: "))
 
-# Calculate bonus (10% of salary)
+# Calculate bonus
 bonus = 0.10 * salary
-
-# Calculate total salary
 total_salary = salary + bonus
 
-# Display the results
-print("Bonus Amount: ₹", bonus)
-print("Total Salary: ₹", total_salary:.2f)
+# Display results
+print(f"Bonus amount: ₹{bonus:.2f}")
+print(f"Total salary after adding bonus: ₹{total_salary:.2f}")
